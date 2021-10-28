@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	padding:0;
+	background-color: rgb(150, 150, 219);
+}
+
+#container{
+	text-align: center;
+}
+#heading1{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+.toolbox{
+	width: 40%;
+	border: 2px solid black;
+	display: inline-block;
+	border-radius: 15px;
+	background-color: rgb(209, 201, 201);
+	padding: 10px;
+}
+#font{
+	width: 80px;
+}
+#content{
+	margin-top: 20px;
+	resize: none;
+}
+select{
+	margin: 0 3px;
+}
+button{
+	margin: 0 3px;
+}
+textarea{
+	width: 800px;
+	height: 440px;
+	border: 2px solid black;
+}
+.boldtext{
+	font-weight: bold;
+}
+.italictext{
+	font-style: italic;
+}
+.underlined{
+	text-decoration: underline;
+}

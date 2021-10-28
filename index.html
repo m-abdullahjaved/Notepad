@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Notepad</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery.js"></script>
+	<script src="javascript.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+
+<body>
+	<div id="container">
+
+		<h1 id="heading1">Text Editor</h1>
+
+		<div class="toolbox">
+			<select id="font" onclick="changeFont(this)">
+				<option value="font" selected>Font</option>
+				<option value="arial">Arial</option>
+				<option value="algerian">Algerian</option>
+				<option value="calibri">Calibri</option>
+				<option value="candara">Candara</option>
+				<option value="verdana">Verdana</option>
+			</select>
+
+			<select onclick="fontSize(this)" id="fontsize">
+				<option value="fontsize" selected>Font Size</option>
+				<option value="10">10</option>
+				<option value="12">12</option>
+				<option value="16">16</option>
+				<option value="20">20</option>
+				<option value="25">25</option>
+				<option value="30">30</option>
+				<option value="40">40</option>
+				<option value="60">60</option>
+			</select>
+			<select id="textcolor" onclick="fontColor(this)">
+				<option value="black" selected>Color</option>
+				<option value="black">Black</option>
+				<option value="red">Red</option>
+				<option value="yellow">Yellow</option>
+				<option value="blue">Blue</option>
+				<option value="green">Green</option>
+			</select>
+
+			<!-- Buttons -->
+
+			<button id="bold"><i class="fa fa-bold" aria-hidden="true"></i></button>
+			<button id="italic"><i class="fa fa-italic" aria-hidden="true"></i></button>
+			<button id="underlined"><i class="fa fa-underline" aria-hidden="true"></i></button>
+			<button id="lalign"><i class="fa fa-align-left" aria-hidden="true"></i></button>
+			<button id="calign"><i class="fa fa-align-center" aria-hidden="true"></i></button>
+			<button id="ralign"><i class="fa fa-align-right" aria-hidden="true"></i></button>
+
+		</div>
+
+		<div id="content_area">
+			<textarea id="content"></textarea>
+		</div>
+		<h4>Created by <i>Abdullah Javed</i></h4>
+	</div>
+</body>
+
+</html>
